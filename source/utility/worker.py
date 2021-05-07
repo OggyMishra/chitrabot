@@ -55,7 +55,7 @@ def check_for_medicine(candidates, date_range):
             requests.post(discord_link, data=payload, headers=headers)
 
 
-MIN_AGE = 45
+MIN_AGE = 44
 
 if __name__ == '__main__':
     import time
@@ -71,7 +71,7 @@ if __name__ == '__main__':
             },
             {
                 'name': 'Sweta',
-                'pin_code': '110092'
+                'pin_code': '110094'
             }
         ]
         date_range_check = 3
